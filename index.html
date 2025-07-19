@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kim Guan Sound & Lighting - Professional sound and lighting services in Skudai, Johor." />
+  <meta name="keywords" content="sound rental, lighting rental, Johor, Skudai, AV installation, Kim Guan" />
+  <meta name="author" content="Kim Guan Sound & Lighting" />
+  <title>Main Page | Kim Guan Sound & Lighting</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <img src="KG Photo.jpg" alt="Kim Guan Logo" class="logo" />
+    <h1>Kim Guan Sound & Lighting</h1>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="#about">About Us</a>
+    <a href="#past-event">Past Event</a>
+    <a href="#services">Service Content</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Ofiice Venue: 30-32, Perlaluan Makmur 73, Taman Damai Jaya, 81300, Skudai, Johor.</p>
+  </section>
+
+  <section id="past-event">
+    <h2>Our Past Events</h2>
+    <div class="gallery">
+      <a href="#img1"><img src="event1.jpg" alt="Event 1" loading="lazy" /></a>
+      <a href="#img2"><img src="event2.jpg" alt="Event 2" loading="lazy" /></a>
+      <a href="#img3"><img src="event3.jpg" alt="Event 3" loading="lazy" /></a>
+      <a href="#img4"><img src="event4.jpg" alt="Event 4" loading="lazy" /></a>
+      <a href="#img5"><img src="event5.jpg" alt="Event 5" loading="lazy" /></a>
+      <a href="#img6"><img src="event6.jpg" alt="Event 6" loading="lazy" /></a>
+    </div>
+  </section>
+
+  <div class="lightbox" id="img1">
+    <a href="#" class="close">✖</a>
+    <img src="event1.jpg" alt="Event 1" />
+  </div>
+
+  <div class="lightbox" id="img2">
+    <a href="#" class="close">✖</a>
+    <img src="event2.jpg" alt="Event 2" />
+  </div>
+
+  <div class="lightbox" id="img3">
+    <a href="#" class="close">✖</a>
+    <img src="event3.jpg" alt="Event 3" />
+  </div>
+
+  <div class="lightbox" id="img4">
+    <a href="#" class="close">✖</a>
+    <img src="event4.jpg" alt="Event 4" />
+  </div>
+
+  <div class="lightbox" id="img5">
+    <a href="#" class="close">✖</a>
+    <img src="event5.jpg" alt="Event 5" />
+  </div>
+
+  <div class="lightbox" id="img6">
+    <a href="#" class="close">✖</a>
+    <img src="event6.jpg" alt="Event 6" />
+  </div>
+
+  <section id="services">
+    <h2>Our Specialties</h2>
+    <div class="services">
+      <div class="card">
+        <p>- Rental & Sales of Sound & Lighting Equipment</p>
+        <p>- Design, Consultancy & Installation</p>
+        <p>
+          - Provide Technical Support & Maintenance for Sound & Lighting for
+          Clubs, Pubs, Karaoke, Discos, Churches, Schools, Meeting Rooms,
+          Conference Rooms, Seminar Rooms, Function Rooms, Retail, Restaurant.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: Vincentpang9477@hotmail.com</p>
+    <p>H/P: 012-7879477</p>
+    <br />
+    <a href="mailto:Vincentpang9477@hotmail.com" class="contact-button">
+      📩 Contact Us Now
+    </a>
+    <a href="https://wa.me/60127879477" target="_blank" class="contact-button">
+      💬 Chat via WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kim Guan Sound & Lighting.</p>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" title="Back to top" aria-label="Back to top">⬆️</button>
+
+  <script>
+    const backToTopBtn = document.getElementById('backToTopBtn');
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    };
+
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
